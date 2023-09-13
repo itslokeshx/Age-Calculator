@@ -14,10 +14,11 @@
 }
 .content{
    width:55vw;
-   height:62vh;
+   height:auto;
    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
    border:1px solid black;
    border-radius: 10px;
+   padding-bottom:20px;
 }
 .title{
    font-family: 'Mulish', sans-serif;
@@ -105,6 +106,7 @@ button:hover{
 @media (max-width:480px){
    .content{
       width:95vw;
+
    }
    label{
       font-size:18px;
