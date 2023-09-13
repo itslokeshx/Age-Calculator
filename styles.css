@@ -1,0 +1,128 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.content{
+   width:55vw;
+   height:62vh;
+   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+   border:1px solid black;
+   border-radius: 10px;
+}
+.title{
+   font-family: 'Mulish', sans-serif;
+   text-align: center;
+   font-size:36px;
+   margin-top:8px;
+}
+.line{
+   width:100%;
+   height:20px;
+   display:flex;
+   place-content: center;
+}
+.inner-line{
+   background-color: black;
+   height:1px;
+   width:95%;
+   margin-top:10px;
+}
+.inputbox{
+   width:70%;
+   height:270px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-left:15%;
+}
+.userinput{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+   width:100%;
+   height:100%;
+}
+.dob , .currentdatee{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+   width:100%;
+   height:100%;
+}
+#inputtwo{
+   margin-left:65px;
+}
+input{
+   width:230px;
+   height:40px;
+   font-size:18px;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+}
+label{
+   font-family: 'Poppins', sans-serif;
+   font-size:22px;
+   font-weight: 500;
+}
+button{
+   margin-top: 30px;
+   font-family: 'Poppins', sans-serif;
+   border: 1px solid black;
+   width:190px;
+   padding: 7px 40px;
+   border-radius: 10px;
+   color:white;
+   background-color:rgb(24, 24, 24);
+   font-size:18px;
+}
+button:hover{
+   background-color: rgb(0, 0, 0);
+   cursor: pointer;
+}
+#output{
+   text-align: center;
+   font-size: 32px;
+   margin-top:10px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   color:rgb(35, 89, 238);
+
+}
+@media (max-width:480px){
+   .content{
+      width:95vw;
+   }
+   label{
+      font-size:18px;
+   }
+   
+   #ouput{
+      font-size: 24px;
+   }
+   .dob , .currentdatee{
+     display: flex;
+     flex-direction: column;
+      width:100%;
+      height:100%;
+   }
+   #inputtwo{
+      margin-left:0px;
+   }
+   .content{
+      margin-bottom:30%;
+   }
+}

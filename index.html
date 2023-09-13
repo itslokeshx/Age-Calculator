@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.transparentpng.com/thumb/anonymous-mask/anonymous-mask-icon-png-25.png" alt="anonymous mask icon png @transparentpng.com ">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p class="title">Age Calculator</p>
+            <div class="line">
+                <div class="inner-line"></div>
+            </div>
+            <div class="inputbox">
+                <div class="userinput">
+                    <div class="dob">
+                        <label for="dob">Select Date Of Birth</label>
+                        <input name="dob" id="inputone" type="date" >
+                    </div>
+                    <div class="currentdatee">
+                        <label for="currentDate">Find Age On</label>
+                        <input name="currentDate" id="inputtwo" type="date" >
+                    </div>     
+                         
+                </div><button class="btn" onclick="calculateAge()">Calculate</button>
+            </div>
+            <p id="output"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
